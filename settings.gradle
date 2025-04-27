@@ -10,7 +10,7 @@ pluginManagement {
         mavenCentral()
         gradlePluginPortal()
         maven {
-            url layout.rootDirectory.dir("./plugin/build/maven-repo")
+            url layout.rootDirectory.dir('./plugin/maven-repo')
         }
     }
 }
@@ -25,5 +25,3 @@ dependencyResolutionManagement {
 rootProject.name = "plugin"
 include ':app'
 include ':plugin'
-include ':lib'
-include ':pluginKt'

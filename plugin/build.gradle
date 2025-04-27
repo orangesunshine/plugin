@@ -2,7 +2,6 @@ plugins {
     id 'java-library'
     id 'java-gradle-plugin'
     id 'maven-publish'
-    id 'com.orange.plugin'
     id("org.jetbrains.kotlin.jvm")
 }
 
@@ -27,14 +26,7 @@ publishing {
 
     repositories {
         maven {
-            url layout.buildDirectory.dir('maven-repo')
+            url layout.projectDirectory.dir('maven-repo')
         }
-    }
-}
-extension{
-    title = "orange"
-    age = 36
-    sub{
-        name = "younger"
     }
 }
