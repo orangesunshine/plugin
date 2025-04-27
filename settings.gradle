@@ -10,7 +10,7 @@ pluginManagement {
         mavenCentral()
         gradlePluginPortal()
         maven {
-            url layout.rootDirectory.dir('./plugin/maven-repo')
+            url './maven-repo'
         }
     }
 }

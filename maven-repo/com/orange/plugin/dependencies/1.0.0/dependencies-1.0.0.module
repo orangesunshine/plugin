@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.orange.plugin",
+    "module": "dependencies",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dependencies-1.0.0.jar",
+          "url": "dependencies-1.0.0.jar",
+          "size": 4927,
+          "sha512": "2edbd7ffe5ce294634be60203e4b9830ce94d4e40f0ea47c3e82b1acb8bf8f003b9243dc543af44f748733a487b09ff0d7d3e173839ccca79c918bfbdc5ca18b",
+          "sha256": "fdc9b58cf6b786428aff04543d55fb99ab82bb70b1dc1de8db664881ebaced4e",
+          "sha1": "3907ffb8920ac159f7d8a7f76062e30061d92d73",
+          "md5": "c202686579ec5895521b2e95143a62cf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dependencies-1.0.0.jar",
+          "url": "dependencies-1.0.0.jar",
+          "size": 4927,
+          "sha512": "2edbd7ffe5ce294634be60203e4b9830ce94d4e40f0ea47c3e82b1acb8bf8f003b9243dc543af44f748733a487b09ff0d7d3e173839ccca79c918bfbdc5ca18b",
+          "sha256": "fdc9b58cf6b786428aff04543d55fb99ab82bb70b1dc1de8db664881ebaced4e",
+          "sha1": "3907ffb8920ac159f7d8a7f76062e30061d92d73",
+          "md5": "c202686579ec5895521b2e95143a62cf"
+        }
+      ]
+    }
+  ]
+}
